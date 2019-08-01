@@ -6,7 +6,7 @@ Installed-Size: 964
 Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
 Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud
 Filename: debs/Ultrasound.deb
-SileoDepiction: SileoDepiction/Ultrasound.json
+SileoDepiction: https://github.com/unitInvalid/unitInvalid.github.io/blob/master/SileoDepiction/Ultrasound.json
 Size: 248078
 MD5sum: bad1060418a5a963fb3fc49c815fe913
 SHA1: 8ac83ae37fd174230889b85d93c3bcb3534294b4
