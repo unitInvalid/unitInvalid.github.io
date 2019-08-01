@@ -1,0 +1,18 @@
+Package: applebetas.ios.tweak.willow
+Version: 1.2.9
+Architecture: iphoneos-arm
+Maintainer: Ayden Panhuyzen
+Installed-Size: 964
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
+Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud
+Filename: debs/Ultrasound.deb
+SileoDepiction: SileoDepiction/Ultrasound.json
+Size: 248078
+MD5sum: bad1060418a5a963fb3fc49c815fe913
+SHA1: 8ac83ae37fd174230889b85d93c3bcb3534294b4
+SHA256: 25709f8a3cdac3d5578d881a40cdfb78ffcbfbe75ac3e0154a2698b864485145
+Section: Tweaks
+Description: The volume HUD you deserve. — Supports iOS 11 and 12.
+Author: Ayden Panhuyzen
+Name: Ultrasound
+
