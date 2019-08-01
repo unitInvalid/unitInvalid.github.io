@@ -1,6 +1,6 @@
 {
  "minVersion": "0.1",
- "headerImage": "images/Ultrasound/top.png",
+ "headerImage": "https://github.com/unitInvalid/unitInvalid.github.io/blob/master/images/Ultrasound/top.png",
  "tintColor": "#7887f7",
  "tabs": [
   {
@@ -18,13 +18,13 @@
      "screenshots": [
       {
        "accessibilityText": "Screenshot",
-       "url": "images/Ultrasound/A1.png",
-       "fullSizeURL": "images/Ultrasound/A2.png"
+       "url": "https://github.com/unitInvalid/unitInvalid.github.io/blob/master/images/Ultrasound/A1.png",
+       "fullSizeURL": "https://github.com/unitInvalid/unitInvalid.github.io/blob/master/images/Ultrasound/A2.png"
       },
       {
        "accessibilityText": "Screenshot",
-       "url": "images/Ultrasound/B1.png",
-       "fullSizeURL": "images/Ultrasound/B2.png"
+       "url": "https://github.com/unitInvalid/unitInvalid.github.io/blob/master/images/Ultrasound/B1.png",
+       "fullSizeURL": "https://github.com/unitInvalid/unitInvalid.github.io/blob/master/images/Ultrasound/B2.png"
       },
       {
        "accessibilityText": "Screenshot",
