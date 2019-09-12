@@ -5,7 +5,7 @@ Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 4736
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: openssl
-Filename: debs/ssh.deb
+Filename: debs/ssh0.deb
 Size: 587678
 MD5sum: 51b3398d67bc3b861642c1eff23f9e42
 SHA1: 0312d429110829359f7443adbfbb27cb1f9419d5
@@ -22,7 +22,7 @@ Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 6164
 Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: debs/ssl.deb
+Filename: debs/ssl0.deb
 Size: 1031128
 MD5sum: 405f8d4c91aab0cf85e6f8ad93b8ab30
 SHA1: 3aedf9d8393b7c8a426840223625a601dd7d089d
