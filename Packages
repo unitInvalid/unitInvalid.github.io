@@ -1,18 +1,20 @@
-Package: applebetas.ios.tweak.willow
-Version: 1.2.9
+Package: xz
+Version: 5.2.4-1
 Architecture: iphoneos-arm
-Maintainer: Ayden Panhuyzen
-Installed-Size: 964
-Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
-Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud
-Filename: debs/Ultrasound.deb
-SileoDepiction: https://github.com/unitInvalid/unitInvalid.github.io/blob/master/SileoDepiction/Ultrasound.json
-Size: 248078
-MD5sum: bad1060418a5a963fb3fc49c815fe913
-SHA1: 8ac83ae37fd174230889b85d93c3bcb3534294b4
-SHA256: 25709f8a3cdac3d5578d881a40cdfb78ffcbfbe75ac3e0154a2698b864485145
-Section: Tweaks
-Description: The volume HUD you deserve. — Supports iOS 11 and 12.
-Author: Ayden Panhuyzen
-Name: Ultrasound
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1104
+Depends: lzma (=4.32.7-5)
+Conflicts: xz-utils
+Provides: xz-utils
+Filename: debs/xz_5.2.4-1.deb
+Size: 390586
+MD5sum: 3c2c50df80e21f8b92498834265088f4
+SHA1: 73f859679e4bd003966eb1ffe336f2edac615810
+SHA256: 6ca2404624ae75928730d9c21a8ecb6b88a5361013b21916e7beac3430077bcc
+Section: Acreson-存档(Archiving)
+Priority: important
+Homepage: http://tukaani.org/lzma/
+Description: slower, but better, compression algorithm
+Icon: file:///Applications/Cydia.app/Sections/Archiving.png
+Name: XZ Utils
 
