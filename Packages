@@ -32,3 +32,22 @@ Priority: standard
 Description: SSL library and cryptographic tools
 Name: OpenSSL
 
+Package: xz
+Version: 5.2.4-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1104
+Depends: lzma (=4.32.7-5)
+Conflicts: xz-utils
+Provides: xz-utils
+Filename: debs/xz_5.2.4-1.deb
+Size: 152646
+MD5sum: 3069ffa85194f92f7f7024f7c3ee9b5b
+SHA1: aa974cb7054375f3ae7b520cdd1a7aec5da9120c
+SHA256: c02b911533a0b645a74ab4a5356e06c5479bc3faa9d092f85c5ad5454007da17
+Section: Archiving
+Priority: important
+Homepage: http://tukaani.org/lzma/
+Description: slower, but better, compression algorithm
+Name: XZ Utils
+
