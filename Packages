@@ -1,3 +1,22 @@
+Package: com.nan.theme.aential
+Version: 0.1.2
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/com.nan.theme.aential_0.1.2_iphoneos-arm.deb
+Size: 1848000
+MD5sum: 82963c9bfa6d803856f2dd8b34a6a3fd
+SHA1: 5ca1213d24a021e80b78e660e97e18bfd08b45e1
+SHA256: 9cc7fa92e04bf657d4fba41aa23fa650004d15a6b4dc01f9fb6f5d0e07c74b5c
+Section: Themes
+Description: 感谢 Alessandro Chiarlitti 发布的 Sential
+ ====================
+ Aentia 完全在 Sential 的基础上按个人爱好修改
+ 也有自己添加一些图标
+ 希望使用的支持 Sential
+ ====================
+Author: zhaonan
+Name: Aential
+
 Package: openssh
 Version: 6.7p1-13
 Architecture: iphoneos-arm
