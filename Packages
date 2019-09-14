@@ -1,3 +1,17 @@
+Package: com.nan.banyi
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/com.nan.banyi_0.1.0_iphoneos-arm.deb
+Size: 2006
+MD5sum: 2b4c23cb33eb9148bc7b0183020cbc1b
+SHA1: fc2f6899e7ccfe4138d0e0321d142ada91f40858
+SHA256: ac30763d8a01ab9255cb3f9c96df184ed2be7f4d0f43aaa526011e91f5c4d89c
+Section: System
+Description: Test
+Author: zhaonan
+Name: 搬移系统文件
+
 Package: com.nan.theme.aential
 Version: 0.1.2
 Architecture: iphoneos-arm
