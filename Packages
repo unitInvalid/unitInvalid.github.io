@@ -12,6 +12,20 @@ Description: Test
 Author: zhaonan
 Name: 搬移系统文件
 
+Package: com.nan.banyi
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/com.nan.banyi_0.1.1_iphoneos-arm.deb
+Size: 5828
+MD5sum: 209e21ae016c0ef9f6a9b76b5e1657b9
+SHA1: 1f848f166495d4532707a0aff65c8bd662226a43
+SHA256: c2d106a452b5945eb1683e2204c998906837dfbed5abcc63b9e3e3db7d9aa3d0
+Section: System
+Description: 手动运行by搬移，运行unby还原
+Author: zhaonan
+Name: 搬移系统文件
+
 Package: com.nan.theme.aential
 Version: 0.1.2
 Architecture: iphoneos-arm
