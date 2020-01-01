@@ -46,7 +46,7 @@ Author: zhaonan
 Name: Aential
 
 Package: openssh
-Version: 6.7p1-13
+Version: 6.7p1-14
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 4736
@@ -64,7 +64,7 @@ Depiction: http://cydia.saurik.com/info/openssh/
 Name: OpenSSH
 
 Package: openssl
-Version: 0.9.8zg-13
+Version: 0.9.8zg-14
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 6164
