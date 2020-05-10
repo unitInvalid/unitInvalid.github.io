@@ -1,3 +1,38 @@
+Package: com.nan.cydown
+Version: 7.0.6
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown
+Provides: com.julioverne.cydown
+Filename: debs/com.nan.cydown_7.0.6_iphoneos-arm.deb
+Size: 4063574
+MD5sum: 95ca096be335720d70b2636e2f814535
+SHA1: 440e58d85093ef89d37d2ba4b332f05bca818fcd
+SHA256: 5cb220594d113e0b8f64034fcd43baaecc544487d7973d9dfb3a73828587b853
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia 下载管理器 & 额外功能 !
+Author: julioverne <julioverne@me.com>
+Name: CyDown
+
+Package: com.nan.cydown-697
+Version: 6.9.7
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown
+Provides: com.julioverne.cydown
+Filename: debs/com.nan.cydown-697_6.9.7_iphoneos-arm.deb
+Size: 1550360
+MD5sum: 7e0c0fb06b6e459a3bf7acc1706b49a8
+SHA1: 0bc5f949bcde640c4d53eb0601861926441159bc
+SHA256: 5b2c7b1bf26ed61f21c259227f78c29430828b5650f3957112c0c840a22b3688
+Section: Tweaks
+Description: Cydia 下载管理器 & 额外功能 !
+Author: julioverne <julioverne@me.com>
+Name: CyDown (6.9.7)
+
 Package: com.nan.localhostssh
 Version: 0.1.5
 Architecture: iphoneos-arm
