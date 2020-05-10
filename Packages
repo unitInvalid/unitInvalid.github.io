@@ -33,6 +33,22 @@ Description: Cydia 下载管理器 & 额外功能 !
 Author: julioverne <julioverne@me.com>
 Name: CyDown (6.9.7)
 
+Package: com.nan.fh
+Version: 0.1.3
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: sed
+Depends: com.bingner.plutil | com.ericasadun.utilities
+Filename: debs/com.nan.fh_0.1.3_iphoneos-arm.deb
+Size: 2538
+MD5sum: a4106c8a59ad86f41099a53a766c267a
+SHA1: 53ee2f8515b534c65e7a51864cd295306f0b7adf
+SHA256: c05f03d1c3394bf0305cf27baf136c4b0527f640fdb1f2af495963a7e4e5fca6
+Section: Terminal_Support
+Description: 一个备份还原字体的小脚本，支持多个备份，支持恢复外部导入的备份
+Author: zhaonan <Invalidunit@icloud.com>
+Name: fh
+
 Package: com.nan.localhostssh
 Version: 0.1.5
 Architecture: iphoneos-arm
@@ -48,6 +64,28 @@ Section: System
 Description: 为 iOS 本地主机 SSH 访问启用 2222 端口
 Author: zhaonan
 Name: Local SSH
+
+Package: cydia
+Version: 1.1.30-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: debianutils
+Depends: apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Filename: debs/cydia_1.1.30-1_iphoneos-arm.deb
+Size: 933852
+MD5sum: 119b6cb0b97a01ac6e4b2edf5b6ef669
+SHA1: 52d1835a337ec6c241f71c3d2d5e3704fd684f21
+SHA256: 9d00e59612d2ad16fbcba3deeeb4ad2d15ee56305915b09f409a9bdd7daeecec
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
 
 Package: openssh
 Version: 6.7p1-13-1
