@@ -2,13 +2,13 @@ Package: com.nan.localhostssh
 Version: 0.1.5
 Architecture: iphoneos-arm
 Maintainer: zhaonan
-Pre-Depends: openssh, sed, xz
+Pre-Depends: openssh, sed
 Depends: com.bingner.plutil | com.ericasadun.utilities
 Filename: debs/com.nan.localhostssh_0.1.5_iphoneos-arm.deb
-Size: 1352
-MD5sum: f1dfbbae84b71d45c5179c3c05210ee7
-SHA1: c4594eeeef6fea25708a0d3f67927d9429e2b7b0
-SHA256: be97b0479b35ff2fe79567023d359aaa5be6e05c995ea8c2334d451420c85745
+Size: 1224
+MD5sum: d2d33ec925884cac3150c7a416f128e7
+SHA1: f984212b3f3bea62d575818b0e77ec3aeb88a490
+SHA256: 1c29fb4143ce3398a614c44f4701e6b62596d897599c971640bf31b44b084024
 Section: System
 Description: 为 iOS 本地主机 SSH 访问启用 2222 端口
 Author: zhaonan
@@ -18,13 +18,13 @@ Package: openssh
 Version: 6.7p1-13-1
 Architecture: iphoneos-arm
 Maintainer: zhaonan
-Pre-Depends: dpkg (>= 1.14.25-8), xz
+Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: openssl
 Filename: debs/openssh_6.7p1-13-1_iphoneos-arm.deb
-Size: 588668
-MD5sum: fd4e6de0f772642221b80ecda35cc148
-SHA1: c1583ec930f4f25a77b1100d2fad5f2fae457947
-SHA256: 54fa5f3f3c54eefd55cb22eab635485a06eab4d24aaf1ba2584621db20881489
+Size: 2374492
+MD5sum: 74b9df71d656d8bf0e0c686597baa9f0
+SHA1: 0c9dfc285da1ce6b6d3d880a109b2510f95e7161
+SHA256: 4768b8b68726acb3fd1d0923887ae75cbe59f09268dc655d6445cc2c99e59197
 Section: Networking
 Priority: important
 Description: secure remote access between machines
@@ -35,34 +35,15 @@ Package: openssl
 Version: 0.9.8zg-13-1
 Architecture: iphoneos-arm
 Maintainer: zhaonan
-Pre-Depends: dpkg (>= 1.14.25-8), xz
+Pre-Depends: dpkg (>= 1.14.25-8)
 Filename: debs/openssl_0.9.8zg-13-1_iphoneos-arm.deb
-Size: 1030292
-MD5sum: a51efdc4c4d639fe6d5935c3ee6a8cd6
-SHA1: 6f05243033178cd15e29ee23918ec05d97a2c584
-SHA256: a0931c151ad9d9e85bb5f01ae5354437b7455ce751f4970d11c56c8df6f61a3a
+Size: 2727566
+MD5sum: 3f08a7462bad74ef1560df603e43de9c
+SHA1: 75e386659b5e8e09617b393993d93aa782f024e0
+SHA256: 4704d50ab58fd53a51382b2d8d49e3c0dd82e9045367cd0001575f6c491d4f11
 Section: Security
 Priority: standard
 Description: SSL library and cryptographic tools
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: OpenSSL
-
-Package: xz
-Version: 5.2.4-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 1104
-Depends: lzma (=4.32.7-5)
-Conflicts: xz-utils
-Provides: xz-utils
-Filename: debs/xz_5.2.4-1_iphoneos-arm.deb
-Size: 152646
-MD5sum: 3069ffa85194f92f7f7024f7c3ee9b5b
-SHA1: aa974cb7054375f3ae7b520cdd1a7aec5da9120c
-SHA256: c02b911533a0b645a74ab4a5356e06c5479bc3faa9d092f85c5ad5454007da17
-Section: Archiving
-Priority: important
-Homepage: http://tukaani.org/lzma/
-Description: slower, but better, compression algorithm
-Name: XZ Utils
 
