@@ -240,6 +240,21 @@ Description: 为 iOS 本地主机 SSH 访问启用 2222 端口
 Author: zhaonan
 Name: Local SSH
 
+Package: com.nan.localiapstore
+Version: 1.4-4
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: debs/com.nan.localiapstore_1.4-4_iphoneos-arm.deb
+Size: 70870
+MD5sum: de387128cce8d4ae22da555b1cef8b6b
+SHA1: 33303b0611f607b565471c251b8372688b0d4c0b
+SHA256: 416a07eae8b8c42984f110f50cebde42fe85543512167fa6223840092dd523e7
+Section: Tweaks
+Description: 不错的内购破解
+Author: PanguTeam
+Name: LocalIAPStore
+
 Package: cydia
 Version: 1.1.30-1
 Architecture: iphoneos-arm
