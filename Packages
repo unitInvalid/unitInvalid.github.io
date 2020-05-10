@@ -1,82 +1,50 @@
-Package: com.nan.banyi
-Version: 0.1.0
+Package: com.nan.localhostssh
+Version: 0.1.5
 Architecture: iphoneos-arm
 Maintainer: zhaonan
-Filename: debs/com.nan.banyi_0.1.0_iphoneos-arm.deb
-Size: 2006
-MD5sum: 2b4c23cb33eb9148bc7b0183020cbc1b
-SHA1: fc2f6899e7ccfe4138d0e0321d142ada91f40858
-SHA256: ac30763d8a01ab9255cb3f9c96df184ed2be7f4d0f43aaa526011e91f5c4d89c
+Pre-Depends: openssh, sed, xz
+Depends: com.bingner.plutil | com.ericasadun.utilities
+Filename: debs/com.nan.localhostssh_0.1.5_iphoneos-arm.deb
+Size: 1352
+MD5sum: f1dfbbae84b71d45c5179c3c05210ee7
+SHA1: c4594eeeef6fea25708a0d3f67927d9429e2b7b0
+SHA256: be97b0479b35ff2fe79567023d359aaa5be6e05c995ea8c2334d451420c85745
 Section: System
-Description: Test
+Description: 为 iOS 本地主机 SSH 访问启用 2222 端口
 Author: zhaonan
-Name: 搬移系统文件
-
-Package: com.nan.banyi
-Version: 0.1.1
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Filename: debs/com.nan.banyi_0.1.1_iphoneos-arm.deb
-Size: 5828
-MD5sum: 209e21ae016c0ef9f6a9b76b5e1657b9
-SHA1: 1f848f166495d4532707a0aff65c8bd662226a43
-SHA256: c2d106a452b5945eb1683e2204c998906837dfbed5abcc63b9e3e3db7d9aa3d0
-Section: System
-Description: 手动运行by搬移，运行unby还原
-Author: zhaonan
-Name: 搬移系统文件
-
-Package: com.nan.theme.aential
-Version: 0.1.2
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Filename: debs/com.nan.theme.aential_0.1.2_iphoneos-arm.deb
-Size: 1848000
-MD5sum: 82963c9bfa6d803856f2dd8b34a6a3fd
-SHA1: 5ca1213d24a021e80b78e660e97e18bfd08b45e1
-SHA256: 9cc7fa92e04bf657d4fba41aa23fa650004d15a6b4dc01f9fb6f5d0e07c74b5c
-Section: Themes
-Description: 感谢 Alessandro Chiarlitti 发布的 Sential
- ====================
- Aentia 完全在 Sential 的基础上按个人爱好修改
- 也有自己添加一些图标
- 希望使用的支持 Sential
- ====================
-Author: zhaonan
-Name: Aential
+Name: Local SSH
 
 Package: openssh
-Version: 6.7p1-14
+Version: 6.7p1-13-1
 Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 4736
-Pre-Depends: dpkg (>= 1.14.25-8)
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8), xz
 Depends: openssl
-Filename: debs/ssh.deb
-Size: 587678
-MD5sum: 51b3398d67bc3b861642c1eff23f9e42
-SHA1: 0312d429110829359f7443adbfbb27cb1f9419d5
-SHA256: ff4eb2a1e4453051e52ba56a71c3d4f56d00c1e83095653647a7a4f49b4c3b1f
+Filename: debs/openssh_6.7p1-13-1_iphoneos-arm.deb
+Size: 588668
+MD5sum: fd4e6de0f772642221b80ecda35cc148
+SHA1: c1583ec930f4f25a77b1100d2fad5f2fae457947
+SHA256: 54fa5f3f3c54eefd55cb22eab635485a06eab4d24aaf1ba2584621db20881489
 Section: Networking
 Priority: important
 Description: secure remote access between machines
-Depiction: http://cydia.saurik.com/info/openssh/
+Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: OpenSSH
 
 Package: openssl
-Version: 0.9.8zg-14
+Version: 0.9.8zg-13-1
 Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 6164
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: debs/ssl.deb
-Size: 1031128
-MD5sum: 405f8d4c91aab0cf85e6f8ad93b8ab30
-SHA1: 3aedf9d8393b7c8a426840223625a601dd7d089d
-SHA256: 0e57f4b5968fc32c1fb56c1361d163a1ffdcda9173145551aff839cfc19be664
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8), xz
+Filename: debs/openssl_0.9.8zg-13-1_iphoneos-arm.deb
+Size: 1030292
+MD5sum: a51efdc4c4d639fe6d5935c3ee6a8cd6
+SHA1: 6f05243033178cd15e29ee23918ec05d97a2c584
+SHA256: a0931c151ad9d9e85bb5f01ae5354437b7455ce751f4970d11c56c8df6f61a3a
 Section: Security
 Priority: standard
 Description: SSL library and cryptographic tools
+Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: OpenSSL
 
 Package: xz
@@ -87,7 +55,7 @@ Installed-Size: 1104
 Depends: lzma (=4.32.7-5)
 Conflicts: xz-utils
 Provides: xz-utils
-Filename: debs/xz_5.2.4-1.deb
+Filename: debs/xz_5.2.4-1_iphoneos-arm.deb
 Size: 152646
 MD5sum: 3069ffa85194f92f7f7024f7c3ee9b5b
 SHA1: aa974cb7054375f3ae7b520cdd1a7aec5da9120c
