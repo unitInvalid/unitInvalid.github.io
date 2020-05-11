@@ -300,18 +300,12 @@ Maintainer: zhaonan
 Pre-Depends: com.ericasadun.utilities
 Depends: coreutils
 Filename: debs/com.nan.stashlite_0.1.0_iphoneos-arm.deb
-Size: 2398
-MD5sum: d629cce030b9f57adb37f3a1874f081f
-SHA1: 6b6f45241a2f4f2869850942a8d3ceabb85e988c
-SHA256: 31ec943408097b91724f29dec55582710416bae6fc447c4166bea13afe15c9b0
+Size: 2404
+MD5sum: 92c7c7165ae846dafeda54063ebece5a
+SHA1: e27ed9e3a896b1480c4848cdeb181ebecd9b95f2
+SHA256: 9ac307db71dd9d5c05f7451e8efaffeade2963dbe198834a67f0f02a4424c5e0
 Section: System
-Description: 一个轻量级的搬移文件脚本
- 专治 disk0s1s1 不够空间
- 安装将写入配置文件：
- /var/mobile/Library/Preferences/com.nan.stashlite.plist
- 会看的可以去改
- 卸载时按照配置文件搬移文件
- 不用担心配置文件会被删除的
+Description: 一个轻量级的搬移文件脚本</br></br>专治 disk0s1s1 不够空间</br>安装将写入配置文件：</br>/var/mobile/Library/Preferences/com.nan.stashlite.plist</br>会看的可以去改</br>卸载时按照配置文件搬移文件</br>不用担心配置文件会被删除的
 Author: zhaonan
 Name: Stash Lite
 
