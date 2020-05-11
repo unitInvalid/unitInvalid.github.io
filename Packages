@@ -301,9 +301,9 @@ Pre-Depends: com.ericasadun.utilities
 Depends: coreutils
 Filename: debs/com.nan.stashlite_0.1.0_iphoneos-arm.deb
 Size: 2398
-MD5sum: 0ecff1b51fb18a89236c0d4ffaff3117
-SHA1: ebb8c8687d8a4fabd1b74308a319a7e502f54a8e
-SHA256: 63aef54ece7d8414ab9ea5f2eb0a112dc2c752deb56c7372a536370a2d308a2d
+MD5sum: d629cce030b9f57adb37f3a1874f081f
+SHA1: 6b6f45241a2f4f2869850942a8d3ceabb85e988c
+SHA256: 31ec943408097b91724f29dec55582710416bae6fc447c4166bea13afe15c9b0
 Section: System
 Description: 一个轻量级的搬移文件脚本
  专治 disk0s1s1 不够空间
