@@ -224,6 +224,44 @@ Description: iPhone, iPad, iPod Touch 的文件管理器
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
+Package: com.nan.icleanerpro
+Version: 7.8.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro-crack
+Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro-crack
+Filename: debs/com.nan.icleanerpro_7.8.0_iphoneos-arm.deb
+Size: 7693058
+MD5sum: 4353382ae6e76e7a72f91a68fee38bd3
+SHA1: 1ce21fe040e763ef8f48626ba49f214cf0052845
+SHA256: 9bd1aa2f947db38c1037052444c201285c757c1c8ffbc30b6e71db1c45d78c03
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: iOS 系统清理 & 优化
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Name: iCleaner Pro
+
+Package: com.nan.icleanerpro-crack
+Version: 7.8.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro
+Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro
+Filename: debs/com.nan.icleanerpro-crack_7.8.0_iphoneos-arm.deb
+Size: 7690900
+MD5sum: c3da478d91437117be89b595e2dfc9e2
+SHA1: 32f41abaddd4f40b0a51a82b7ce9aeb7f6ab707a
+SHA256: 8f782e661221298f6e3790e01eafbd0d49e07869034b6c1d9168e258e7b8efc5
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: iOS 系统清理 & 优化
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Name: iCleaner Pro Crack
+
 Package: com.nan.localhostssh
 Version: 0.1.5
 Architecture: iphoneos-arm
