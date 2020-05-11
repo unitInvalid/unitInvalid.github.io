@@ -68,13 +68,13 @@ Package: com.nan.fh
 Version: 0.1.3
 Architecture: iphoneos-arm
 Maintainer: zhaonan
-Pre-Depends: sed
+Pre-Depends: sed, coreutils
 Depends: com.bingner.plutil | com.ericasadun.utilities
 Filename: debs/com.nan.fh_0.1.3_iphoneos-arm.deb
-Size: 2538
-MD5sum: a4106c8a59ad86f41099a53a766c267a
-SHA1: 53ee2f8515b534c65e7a51864cd295306f0b7adf
-SHA256: c05f03d1c3394bf0305cf27baf136c4b0527f640fdb1f2af495963a7e4e5fca6
+Size: 2560
+MD5sum: fa2fa8aa5f6c87ea57a095507bc87e60
+SHA1: 9c308288c71474be1f25f808501f210bc8498ccb
+SHA256: 7d0d2cc36055f936d12d46ad1ecf536bf21892b618a25fc50b717208472af14a
 Section: Terminal_Support
 Description: 一个备份还原字体的小脚本，支持多个备份，支持恢复外部导入的备份
 Author: zhaonan <Invalidunit@icloud.com>
@@ -293,6 +293,47 @@ Description: 不错的内购破解
 Author: PanguTeam
 Name: LocalIAPStore
 
+Package: com.nan.stashlite
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: com.ericasadun.utilities
+Depends: coreutils
+Filename: debs/com.nan.stashlite_0.1.0_iphoneos-arm.deb
+Size: 2398
+MD5sum: 0ecff1b51fb18a89236c0d4ffaff3117
+SHA1: ebb8c8687d8a4fabd1b74308a319a7e502f54a8e
+SHA256: 63aef54ece7d8414ab9ea5f2eb0a112dc2c752deb56c7372a536370a2d308a2d
+Section: System
+Description: 一个轻量级的搬移文件脚本
+ 专治 disk0s1s1 不够空间
+ 安装将写入配置文件：
+ /var/mobile/Library/Preferences/com.nan.stashlite.plist
+ 会看的可以去改
+ 卸载时按照配置文件搬移文件
+ 不用担心配置文件会被删除的
+Author: zhaonan
+Name: Stash Lite
+
+Package: coreutils
+Version: 8.12-13-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils-bin (>= 7.4-5), profile.d
+Replaces: netatalk (<= 2.0.3-6)
+Provides: md5sum, sha1sum
+Filename: debs/coreutils_8.12-13-1_iphoneos-arm.deb
+Size: 3597570
+MD5sum: 436dbd8d973aa8151d939d9215f208cd
+SHA1: 0df60e1916945397dc0db7d17ff34c853305e4ba
+SHA256: c24732a1371d8348d6ec25e51ef1befc3528c92fb506b4d5dc1f8dfabe961e67
+Section: Utilities
+Priority: standard
+Description: GNU 的 Unix Shell 实用程序核心集
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Core Utilities
+
 Package: cydia
 Version: 1.1.30-1
 Architecture: iphoneos-arm
@@ -347,4 +388,83 @@ Priority: standard
 Description: SSL library and cryptographic tools
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: OpenSSL
+
+Package: p7zip
+Version: 4.57-3p-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/p7zip_4.57-3p-1_iphoneos-arm.deb
+Size: 1595594
+MD5sum: 37823e7f98f971e716337ce0f3fc47e0
+SHA1: 8d61831ad176b36a68cac69579cdbf4664f6e3bf
+SHA256: f9c0b737f8f0c58850b29e95c0c9ee1bdd1b1269185f05ec34f2f759861d7ad1
+Section: Archiving
+Priority: optional
+Description: claims to be a good compressor
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: 7-zip (POSIX)
+
+Package: preferenceloader
+Version: 2.2.4-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_2.2.4-1_iphoneos-arm.deb
+Size: 61164
+MD5sum: 4f8ada64abebe32c88f3991fc1e3df58
+SHA1: a2512924e79e3b665a166bf15d130010316d17bb
+SHA256: 241dcaa4ef025fd4deec2761cdea67e83d89775589705fbc7781f5a9b4b1756d
+Section: System
+Description: 设置显示插件依赖
+Tag: role::hacker, purpose::library, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Sam Bingner <maintainer@sbdhi.com>
+Dev: dustinhowett
+Name: PreferenceLoader
+
+Package: unrar
+Version: 3.6.8-2p-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/unrar_3.6.8-2p-1_iphoneos-arm.deb
+Size: 141066
+MD5sum: 6b6452057dea55134806c7a755cfc28e
+SHA1: eaf828570f0c646eed45884bc02d290acdbb9b0a
+SHA256: dfa6faa4a310b26e5f40be10701db5c7ef2a59284054d51e7123bb31f35f5da9
+Section: Archiving
+Priority: optional
+Description: de-compresses files in rar format
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: unrar
+
+Package: unzip
+Version: 5.52-6-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/unzip_5.52-6-1_iphoneos-arm.deb
+Size: 149234
+MD5sum: 19715daa79d0f9d1b1c3881b18880d3f
+SHA1: b21bbc3788c5abdfa073ce49a29fa98f803f6027
+SHA256: 992d2042d1b4ccb4a51727178307d055838271d6b330317c55f0ee669d7ea672
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: unzip
+
+Package: zip
+Version: 2.32-6-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/zip_2.32-6-1_iphoneos-arm.deb
+Size: 99374
+MD5sum: 2134dcf2492687b284b829510850c57a
+SHA1: d35767844da3b5040b955e7c8f9e1cb74d55658f
+SHA256: df661586a212da82c409248aa071c2866b5f5247914ca46b0d1088b24262be6c
+Section: Archiving
+Priority: important
+Description: standard Windows compression tool
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: zip
 
