@@ -1,0 +1,682 @@
+Package: adv-cmds
+Version: 119-6-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Provides: ps
+Filename: debs/adv-cmds_119-6-1_iphoneos-arm.deb
+Size: 84972
+MD5sum: 153300c0cbcd54a3329fd1739e1c9605
+SHA1: 26286e3df4f0f987b5480d0fd64689e620c586ba
+SHA256: 4946f790caf03e08d6f8e7ce635efdebab43e77540c6c601075cd4d68ef33b51
+Section: Administration
+Priority: important
+Description: finger, fingerd, last, lsvfs, md, ps
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: adv-cmds
+
+Package: apt
+Version: 1:0-23-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7
+Conflicts: cydia (<< 1.0.2843-1)
+Filename: debs/apt_1:0-23-1_iphoneos-arm.deb
+Size: 718
+MD5sum: cf56752ee5d8eb0d12a3880e0be0b780
+SHA1: bf060d1053ef7c03dce9e6276c6758a9689a8887
+SHA256: ba308f898045dbee1e48da28708ce49a869881247ea5b2822347753e61903d72
+Section: Packaging
+Priority: required
+Description: 来自 Debian 的高级打包工具
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: APT 0.6 Transitional
+
+Package: apt7
+Version: 0.7.25.3-9-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb
+Replaces: apt (<< 1:0-1)
+Filename: debs/apt7_0.7.25.3-9-1_iphoneos-arm.deb
+Size: 347790
+MD5sum: e6fcb039b9b203cf363ddc09f09bca77
+SHA1: 6bea0c2e00fe8ff8e34d8fa71200ab2a27214b87
+SHA256: 8c60b585c3782ca7b1b094eadeb5286e47f0511a778837bfad9e32291b7a27bb
+Section: Packaging
+Priority: standard
+Description: 来自 Debian 的高级打包工具
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: APT 0.7 Strict
+
+Package: bash
+Version: 4.0.44-16-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: grep, ncurses, readline (>= 6.0-7), sed
+Filename: debs/bash_4.0.44-16-1_iphoneos-arm.deb
+Size: 323246
+MD5sum: 69cbd1810fc6aeec0e86c46420e8f6b2
+SHA1: cdfb352d22cab5e902edae2b8e1cae92e4498ec7
+SHA256: cf40578c405cdf28d3322c8af3f4e2a422a8033d1f67aa0b25e2b6457fe20bd0
+Section: Terminal_Support
+Priority: required
+Description: 有史以来最好的来自 Brian Fox 的外壳
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Bourne-Again SHell
+
+Package: berkeleydb
+Version: 4.6.21-5-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/berkeleydb_4.6.21-5-1_iphoneos-arm.deb
+Size: 611786
+MD5sum: daefb39da9119407f1f8bc82f62721b0
+SHA1: 04317cdff99234b3c4a1240b6da4978334825387
+SHA256: 19fe492aedb4215558b69080a0f356316864d9c361f1d97fa18636ac08c50ec8
+Section: Data_Storage
+Priority: standard
+Description: Oracle 的嵌入式数据库引擎
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Berkeley DB
+
+Package: bzip2
+Version: 1.0.5-8-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/bzip2_1.0.5-8-1_iphoneos-arm.deb
+Size: 23780
+MD5sum: a49069d0aaa26b35492ef0cfefcc972a
+SHA1: ce7faf98a6e1137435e169b7cc80f3ff74c25d6a
+SHA256: 6c6094eb8be5e99fa4aea6fdb9700b10ee01f84d29602458d6e18722b434cd1b
+Section: Archiving
+Priority: important
+Description: compression that's slightly better than gzip
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: bzip2
+
+Package: com.ericasadun.utilities
+Version: beta17-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/com.ericasadun.utilities_beta17-1_iphoneos-arm.deb
+Size: 91394
+MD5sum: 06b6c25120dc5060d276c24dca2a7404
+SHA1: 63cd60ff075a44b90285a0255ce3da28b46cc083
+SHA256: 2f19d4e90db3b9089a178b19979d74d626ed351ad2c5ce522617585b2b23fdad
+Section: Utilities
+Description: 一个用于各种目的的命令行工具集合
+Author: Erica Sadun <apptapp@ericasadun.com>
+Name: Erica Utilities
+
+Package: com.saurik.afc2d
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 8.0) | mobilesubstrate
+Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: debs/com.saurik.afc2d_1.2-1_iphoneos-arm.deb
+Size: 18132
+MD5sum: c27bb97de58e2cf7e3056730a30febdc
+SHA1: 9dc372c6ef3037867de353781b2da1604f011c85
+SHA256: 92ed7db8a854965ae1b42428a8d45f7cbbb60d9ceed5f768e6b576e467e8d4d1
+Section: System
+Priority: optional
+Description: 允许通过 USB 完全访问文件系统
+Tag: purpose::daemon, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Apple File Conduit "2"
+
+Package: com.saurik.patcyh
+Version: 1.2.0-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 8.3), coreutils-bin, ldid
+Filename: debs/com.saurik.patcyh_1.2.0-1_iphoneos-arm.deb
+Size: 27530
+MD5sum: 3fd08e31769312091d386b8b6a4edb30
+SHA1: 5854354d685890b034e0a78d22645c80475894b8
+SHA256: 010e50c6c7febe7bdc9b8a1c2a57bdc49245b24a74aaffc62c82b6f393036310
+Section: System
+Priority: optional
+Description: 用于支持 UIKit Tools 的安装补丁
+Tag: cydia::obsolete
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Patcyh
+
+Package: coreutils
+Version: 8.12-13-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils-bin (>= 7.4-5), profile.d
+Replaces: netatalk (<= 2.0.3-6)
+Provides: md5sum, sha1sum
+Filename: debs/coreutils_8.12-13-1_iphoneos-arm.deb
+Size: 3597570
+MD5sum: 436dbd8d973aa8151d939d9215f208cd
+SHA1: 0df60e1916945397dc0db7d17ff34c853305e4ba
+SHA256: c24732a1371d8348d6ec25e51ef1befc3528c92fb506b4d5dc1f8dfabe961e67
+Section: Utilities
+Priority: standard
+Description: GNU 的 Unix Shell 实用程序核心集
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Core Utilities
+
+Package: curl
+Version: 7.33.0-9-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Filename: debs/curl_7.33.0-9-1_iphoneos-arm.deb
+Size: 320052
+MD5sum: de41fe65570e18fcd1003ee8bf52caa3
+SHA1: 88df03df9f8d1401f25f13073b015f012b0fb839
+SHA256: 9efb49eb828d1743f8d73265ff40887fb7a35b267f34f366d028d207bec372bc
+Section: Networking
+Priority: standard
+Description: 灵活的多协议文件传输
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: cURL
+
+Package: cydia
+Version: 1.1.30-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: debianutils
+Depends: apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Filename: debs/cydia_1.1.30-1_iphoneos-arm.deb
+Size: 933852
+MD5sum: 119b6cb0b97a01ac6e4b2edf5b6ef669
+SHA1: 52d1835a337ec6c241f71c3d2d5e3704fd684f21
+SHA256: 9d00e59612d2ad16fbcba3deeeb4ad2d15ee56305915b09f409a9bdd7daeecec
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
+
+Package: developer-cmds
+Version: 48-2p-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/developer-cmds_48-2p-1_iphoneos-arm.deb
+Size: 83246
+MD5sum: 2a81319ffc73dfa3c2d456a226e40494
+SHA1: 61d85591da1419c70d0f4cdff567418578f886ba
+SHA256: 6a6d976fdde3a3fa8bae6228ac7ae1b25516cd4109fe645c3740e5c02f9a6b8a
+Section: Development
+Priority: important
+Description: ctags, error, hexdump, rpcgen, unifdef
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: developer-cmds
+
+Package: diskdev-cmds
+Version: 421.7-4-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware-sbin
+Filename: debs/diskdev-cmds_421.7-4-1_iphoneos-arm.deb
+Size: 172586
+MD5sum: c508a4f0bacd35b867d8fb27e6550010
+SHA1: 1323be8531cc5f61688a6124ad49336f64c56d1a
+SHA256: e1a024f3c7c367802c1c6b3f44fb9fa1564d4a84969ae2bdaaba00e992bb6131
+Section: System
+Priority: required
+Description: mount, quota, fsck, fstyp, fdisk, tunefs
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: diskdev-cmds
+
+Package: dpkg
+Version: 1.18.10-12-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: tar (>= 1.23)
+Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, ncurses, tar
+Filename: debs/dpkg_1.18.10-12-1_iphoneos-arm.deb
+Size: 611318
+MD5sum: ee6f901cc6f45923ade772eaa2e3476c
+SHA1: 588e193bad0f550d3e285158576819cbec429d89
+SHA256: c4d6bea99171da737f0e5a3315e50bcf0b8141005ad4fb157ea93748f16a594a
+Section: Packaging
+Priority: required
+Description: Debian 的软件包维护工具
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Debian Packager
+
+Package: expat
+Version: 2.0.1-3-22-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/expat_2.0.1-3-22-1_iphoneos-arm.deb
+Size: 83144
+MD5sum: ff7a866c7bf5d776edd7120b6fd6a5e8
+SHA1: 0bd1ef30c6dbb94026b179c4c5f4dee52b091a88
+SHA256: 928376164863a836d89bc0039e84f459a7677fb516dc491250546e71995e7dbb
+Section: Development
+Priority: standard
+Description: stream-oriented XML parser written in C
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: XML Parser Toolkit
+
+Package: file-cmds
+Version: 220.7-3-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/file-cmds_220.7-3-1_iphoneos-arm.deb
+Size: 78960
+MD5sum: 7fcd02623d8861be995dcb8f10ea6880
+SHA1: 82c5dc9f92c59a42de24cb8a1b3ebb5558eaceb7
+SHA256: 40716914bd184935f5c7a8445ab0b57890418253c8f81657baffed4033736497
+Section: Utilities
+Priority: important
+Description: chflags, compress, ipcrm, ipcs, pax
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: file-cmds
+
+Package: findutils
+Version: 4.2.33-7-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: bash, sed
+Filename: debs/findutils_4.2.33-7-1_iphoneos-arm.deb
+Size: 223564
+MD5sum: 12cd08bd50447b97a1a85c52b46ba49e
+SHA1: 8a3339c1a839029bcb04c16cdfa5bcc1d6af333e
+SHA256: 518f6f54c64743b2462e30eee01deefe6eb98eca2d6f7a96280727f695317f9d
+Section: Utilities
+Priority: important
+Description: 编制索引和搜索文件系统
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Find Utilities
+
+Package: gettext
+Version: 0.17-7-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Filename: debs/gettext_0.17-7-1_iphoneos-arm.deb
+Size: 1200298
+MD5sum: b9041327be7aaebc7097b056592a8ca4
+SHA1: 3c5083630138c3feaab2458523a5dc00a82fd9d3
+SHA256: 5fa6ee67fff23faf7a4b9a454759f062d4ce19abebcb3b6b7254662f9b1e965f
+Section: System
+Priority: optional
+Description: internationalization helper for strings
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: gettext
+
+Package: git
+Version: 2.8.1-5-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, expat, openssl
+Filename: debs/git_2.8.1-5-1_iphoneos-arm.deb
+Size: 11548024
+MD5sum: cacc5dce3aa2bc30df35587e09f69e00
+SHA1: c9a0580815f9f7f4cdebbc3e8bb1dab519d00231
+SHA256: 66ef7b0dad19a75c1b0171e08e3b6081e7b6f584b75de1782ffa81bbca564420
+Section: Data_Storage
+Priority: optional
+Description: fast content-addressable filesystem
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Git
+
+Package: inetutils
+Version: 1.6-8-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Replaces: coreutils (<< 7.2-6)
+Provides: hostname, ping, telnet
+Filename: debs/inetutils_1.6-8-1_iphoneos-arm.deb
+Size: 380160
+MD5sum: 1fb2da38baf0dc0aa16bedafcc90fc6b
+SHA1: fc4909439d63d98a111deef765ba9a04ec043b8f
+SHA256: 0eb27873773c38d71f82f3c2276545cda30694b7b768918433144153486ceb78
+Section: Networking
+Priority: standard
+Description: ftp, inetd, ping, rlogin, telnet, tftp
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: inetutils
+
+Package: make
+Version: 3.81-2p-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/make_3.81-2p-1_iphoneos-arm.deb
+Size: 102286
+MD5sum: 21a3aa79460ac99712f8c31193076f35
+SHA1: 5baf6c830dede2be9df009203781d347f71b9f64
+SHA256: 978880256d13cf5f2fbc71fffd0f44776435f296eabf6c6c437ef5a628a15935
+Section: Development
+Priority: important
+Description: dependency-based build environments
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Make
+
+Package: network-cmds
+Version: 307.0.1-7-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 9.0) | rtadvd
+Filename: debs/network-cmds_307.0.1-7-1_iphoneos-arm.deb
+Size: 232116
+MD5sum: e757461200f9fd4e9ea92113bd54b6c4
+SHA1: 9ae0204adc4371787bf72a73a459c56722b72abe
+SHA256: 3dc61bde6a7e3c615ce7f2c609bac99281d54b4753b5e24f32d6bc953aaa32f9
+Section: Networking
+Priority: important
+Description: arp, ifconfig, netstat, route, traceroute
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Network Commands
+
+Package: openssh
+Version: 6.7p1-13-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Filename: debs/openssh_6.7p1-13-1_iphoneos-arm.deb
+Size: 2374492
+MD5sum: 74b9df71d656d8bf0e0c686597baa9f0
+SHA1: 0c9dfc285da1ce6b6d3d880a109b2510f95e7161
+SHA256: 4768b8b68726acb3fd1d0923887ae75cbe59f09268dc655d6445cc2c99e59197
+Section: Networking
+Priority: important
+Description: secure remote access between machines
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: OpenSSH
+
+Package: openssl
+Version: 0.9.8zg-13-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/openssl_0.9.8zg-13-1_iphoneos-arm.deb
+Size: 2727566
+MD5sum: 3f08a7462bad74ef1560df603e43de9c
+SHA1: 75e386659b5e8e09617b393993d93aa782f024e0
+SHA256: 4704d50ab58fd53a51382b2d8d49e3c0dd82e9045367cd0001575f6c491d4f11
+Section: Security
+Priority: standard
+Description: SSL library and cryptographic tools
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: OpenSSL
+
+Package: p7zip
+Version: 4.57-3p-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/p7zip_4.57-3p-1_iphoneos-arm.deb
+Size: 1595594
+MD5sum: 37823e7f98f971e716337ce0f3fc47e0
+SHA1: 8d61831ad176b36a68cac69579cdbf4664f6e3bf
+SHA256: f9c0b737f8f0c58850b29e95c0c9ee1bdd1b1269185f05ec34f2f759861d7ad1
+Section: Archiving
+Priority: optional
+Description: claims to be a good compressor
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: 7-zip (POSIX)
+
+Package: pam-modules
+Version: 36.1-5-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/pam-modules_36.1-5-1_iphoneos-arm.deb
+Size: 8014
+MD5sum: d0a1f8b64bd8844da028dc7ebe42dbc3
+SHA1: e769f64b0f0167d2b26b65f689f8c0acd6254aa0
+SHA256: a4d3f8051de6b6b805fd5461772e4811571d70cfca795cf50a930159733addd5
+Section: Administration
+Priority: standard
+Description: 标准的 Apple 认证模块
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: PAM Modules
+
+Package: preferenceloader
+Version: 2.2.4-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_2.2.4-1_iphoneos-arm.deb
+Size: 61164
+MD5sum: 4f8ada64abebe32c88f3991fc1e3df58
+SHA1: a2512924e79e3b665a166bf15d130010316d17bb
+SHA256: 241dcaa4ef025fd4deec2761cdea67e83d89775589705fbc7781f5a9b4b1756d
+Section: System
+Description: 设置显示插件依赖
+Tag: role::hacker, purpose::library, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Sam Bingner <maintainer@sbdhi.com>
+Dev: dustinhowett
+Name: PreferenceLoader
+
+Package: rsync
+Version: 3.0.5-3-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/rsync_3.0.5-3-1_iphoneos-arm.deb
+Size: 263140
+MD5sum: fa26ffa534581d5ff2154af103a30561
+SHA1: b2ffa5fe334889f19078f1cd28b660ef90a0a50b
+SHA256: b91cd794e831a6396fbf17a72052ed11eb54169452fcdd64028d2cf4a05b611d
+Section: Networking
+Priority: important
+Description: synchronize files between computers
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: rsync
+
+Package: rzip
+Version: 2.1-2p-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/rzip_2.1-2p-1_iphoneos-arm.deb
+Size: 34922
+MD5sum: a9e3a59dfc2da490648c1ec2d4d03b48
+SHA1: 7092d440f249693213f5e73ee38c2f6e5c606d09
+SHA256: 74cb7bf9c11fc5934ce729170bf7b71f97fc76231bf86857e396583796eb6d5c
+Section: Archiving
+Priority: standard
+Description: the best compression algorithm
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: rzip
+
+Package: sed
+Version: 4.1.5-8-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/sed_4.1.5-8-1_iphoneos-arm.deb
+Size: 83212
+MD5sum: ac96f27a3901acff290c19563356640a
+SHA1: a6a2b112af17dc0dc7c3eae7d95a202abd59f43e
+SHA256: 20d0918c140e18089082f3659bef5b392bc30474a4466f27f7962fdae7914f7b
+Section: Utilities
+Priority: important
+Description: edits streams of text using patterns
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: sed
+
+Package: shell-cmds
+Version: 118-7-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Provides: killall, which
+Filename: debs/shell-cmds_118-7-1_iphoneos-arm.deb
+Size: 17420
+MD5sum: 793441d722313ff0bcebc4b0524d0f0d
+SHA1: 7ff450cedd610944e352a374f44290cc1a09cea0
+SHA256: 87439594dab043abdf541b0f45ed7b67210f0c1034760b113de1a39a18a37c35
+Section: Administration
+Priority: important
+Description: killall, mktemp, renice, time, which
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: shell-cmds
+
+Package: sudo
+Version: 1.6.9p12-4p-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/sudo_1.6.9p12-4p-1_iphoneos-arm.deb
+Size: 179046
+MD5sum: 7514f0108832acaf546b66338c3d91d0
+SHA1: 8b73c8e48b17ade1bbc54c1c0de9cfda5a8295fe
+SHA256: f0a143e5c206414ad7b4b12b5b44ce46e2dda9e295b3498ca47fb1b227cfa2f6
+Section: Administration
+Priority: standard
+Description: temporarily assume root priviledges
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Sudo
+
+Package: tar
+Version: 1.29-10-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: bzip2, gzip, lzma
+Filename: debs/tar_1.29-10-1_iphoneos-arm.deb
+Size: 283604
+MD5sum: 2747f1a64a2c3f03b7924da7a8124f36
+SHA1: 45d75f3a53cc5b503b53c52fefec656b7457d3ea
+SHA256: 4718b58268e22352a07f7baccd406b177ede99358151d4e15c7ee7733f00e414
+Section: Archiving
+Priority: required
+Description: tool for making tape archives
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Tape Archive
+
+Package: top
+Version: 39-4-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Filename: debs/top_39-4-1_iphoneos-arm.deb
+Size: 217734
+MD5sum: f8559a3bd6dbf25bc51944802c11031f
+SHA1: ad488012d907ef6be4c441291c838ff2c1d4ef0e
+SHA256: f26ea613251392adb709a355748e51cf4e895efb5b270faac46d1fe52c37cc0d
+Section: Administration
+Priority: important
+Description: at-a-glance process watching tool
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: top
+
+Package: uikittools
+Version: 1.1.12-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils-bin, firmware (<< 8.3) | com.saurik.patcyh
+Filename: debs/uikittools_1.1.12-1_iphoneos-arm.deb
+Size: 31960
+MD5sum: 2bab41557e80dac92b8e8f2b97502907
+SHA1: ea326738b6fae6491f3883dc2528478d1f451144
+SHA256: 77c3994a1549e853fee842ddce6309774aca07557132756f4ed5920722913572
+Section: Utilities
+Priority: optional
+Description: UIKit/GraphicsServices command line access
+Tag: purpose::console, role::hacker
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: UIKit Tools
+
+Package: unrar
+Version: 3.6.8-2p-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/unrar_3.6.8-2p-1_iphoneos-arm.deb
+Size: 141066
+MD5sum: 6b6452057dea55134806c7a755cfc28e
+SHA1: eaf828570f0c646eed45884bc02d290acdbb9b0a
+SHA256: dfa6faa4a310b26e5f40be10701db5c7ef2a59284054d51e7123bb31f35f5da9
+Section: Archiving
+Priority: optional
+Description: de-compresses files in rar format
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: unrar
+
+Package: unzip
+Version: 5.52-6-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/unzip_5.52-6-1_iphoneos-arm.deb
+Size: 149234
+MD5sum: 19715daa79d0f9d1b1c3881b18880d3f
+SHA1: b21bbc3788c5abdfa073ce49a29fa98f803f6027
+SHA256: 992d2042d1b4ccb4a51727178307d055838271d6b330317c55f0ee669d7ea672
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: unzip
+
+Package: uuid
+Version: 1.6.0-2p-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/uuid_1.6.0-2p-1_iphoneos-arm.deb
+Size: 39070
+MD5sum: 3e5733f35405a35370b931ee13756bda
+SHA1: 874dea0cd973d6c2e598f12692cd17b50ff738e5
+SHA256: 8b308cf5c10176df60b5f363473a5e352ceb0bd17d5859ac7c847bf4a2ec224e
+Section: System
+Priority: important
+Description: universally unique identifiers
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: UUID Generator
+
+Package: wget
+Version: 1.16-4-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gettext, openssl
+Filename: debs/wget_1.16-4-1_iphoneos-arm.deb
+Size: 250006
+MD5sum: 2b83c9bb5c71e50369e5a5c790ba5765
+SHA1: 4c8c651f6ddb4f4855855c89a79c3ada3ffe6507
+SHA256: ce66aa3cca8a33b3a8f949ae29b2beb3c1d98fea95270400818e39b4abb9f207
+Section: Networking
+Priority: important
+Description: simple HTTP file transfer client
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: wget
+
+Package: zip
+Version: 2.32-6-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/zip_2.32-6-1_iphoneos-arm.deb
+Size: 99374
+MD5sum: 2134dcf2492687b284b829510850c57a
+SHA1: d35767844da3b5040b955e7c8f9e1cb74d55658f
+SHA256: df661586a212da82c409248aa071c2866b5f5247914ca46b0d1088b24262be6c
+Section: Archiving
+Priority: important
+Description: standard Windows compression tool
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: zip
+

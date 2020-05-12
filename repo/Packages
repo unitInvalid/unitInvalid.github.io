@@ -1,0 +1,297 @@
+Package: com.nan.appdatamanager
+Version: 1.5.1-10
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Conflicts: com.tigisoftware.appdatamanager
+Replaces: com.tigisoftware.appdatamanager
+Provides: com.tigisoftware.appdatamanager
+Filename: debs/com.nan.appdatamanager_1.5.1-10_iphoneos-arm.deb
+Size: 3624618
+MD5sum: 0e7e6458ffe42c15d0641946800cdbab
+SHA1: 9e1f8b7e24314f7916260d1c794f52f800fc6c75
+SHA256: d3209cab13ed897ff75b9c5b7564c4e01b2239e43ec1a40df89e66c870b1e010
+Section: Utilities
+Description: 该工具为已安装的应用提供了擦除，备份，还原应用数据的方法
+Author: TIGI Software
+Name: Apps Manager
+
+Package: com.nan.cydown
+Version: 7.0.6
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown
+Provides: com.julioverne.cydown
+Filename: debs/com.nan.cydown_7.0.6_iphoneos-arm.deb
+Size: 4063574
+MD5sum: 95ca096be335720d70b2636e2f814535
+SHA1: 440e58d85093ef89d37d2ba4b332f05bca818fcd
+SHA256: 5cb220594d113e0b8f64034fcd43baaecc544487d7973d9dfb3a73828587b853
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia 下载管理器 & 额外功能 !
+Author: julioverne <julioverne@me.com>
+Name: CyDown
+
+Package: com.nan.cydown-697
+Version: 6.9.7
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown
+Provides: com.julioverne.cydown
+Filename: debs/com.nan.cydown-697_6.9.7_iphoneos-arm.deb
+Size: 1550360
+MD5sum: 7e0c0fb06b6e459a3bf7acc1706b49a8
+SHA1: 0bc5f949bcde640c4d53eb0601861926441159bc
+SHA256: 5b2c7b1bf26ed61f21c259227f78c29430828b5650f3957112c0c840a22b3688
+Section: Tweaks
+Description: Cydia 下载管理器 & 额外功能 !
+Author: julioverne <julioverne@me.com>
+Name: CyDown (6.9.7)
+
+Package: com.nan.fh
+Version: 0.1.3
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: sed, coreutils
+Depends: com.bingner.plutil | com.ericasadun.utilities
+Filename: debs/com.nan.fh_0.1.3_iphoneos-arm.deb
+Size: 2560
+MD5sum: fa2fa8aa5f6c87ea57a095507bc87e60
+SHA1: 9c308288c71474be1f25f808501f210bc8498ccb
+SHA256: 7d0d2cc36055f936d12d46ad1ecf536bf21892b618a25fc50b717208472af14a
+Section: Terminal_Support
+Description: 一个备份还原字体的小脚本，支持多个备份，支持恢复外部导入的备份
+Author: zhaonan <Invalidunit@icloud.com>
+Name: fh
+
+Package: com.nan.filza
+Version: 3.7.3-16
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza, com.nan.filza64bit
+Replaces: com.tigisoftware.filza
+Provides: com.tigisoftware.filza
+Filename: debs/com.nan.filza_3.7.3-16_iphoneos-arm.deb
+Size: 12758350
+MD5sum: cc8460afb51c2f386b15928e3c7c9497
+SHA1: d1f129754e79bbcc0938afd6571ab6b9233e3277
+SHA256: ca4b26ace1ec12ec2416976d6bbdc05391e76d935e96e35cbc508d8434ae1923
+Section: Utilities
+Description: iPhone, iPad, iPod Touch 的文件管理器
+Author: TIGI Software
+Name: Filza File Manager
+
+Package: com.nan.filza
+Version: 3.7.4-12
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza, com.nan.filza64bit
+Replaces: com.tigisoftware.filza
+Provides: com.tigisoftware.filza
+Filename: debs/com.nan.filza_3.7.4-12_iphoneos-arm.deb
+Size: 12724820
+MD5sum: f06ad75dff68551448d135bb5a0a403f
+SHA1: 60f4e53e948f58a15588ae931c4f208ea7009a77
+SHA256: 198c856b3434d1af7b7d1b69a34097e58d5a4747ae539b04aa489f5a982f921f
+Section: Utilities
+Description: iPhone, iPad, iPod Touch 的文件管理器
+Author: TIGI Software
+Name: Filza File Manager
+
+Package: com.nan.filza
+Version: 3.7.4-15
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza, com.nan.filza64bit
+Replaces: com.tigisoftware.filza
+Provides: com.tigisoftware.filza
+Filename: debs/com.nan.filza_3.7.4-15_iphoneos-arm.deb
+Size: 12812428
+MD5sum: c57b150c7b7aeea94b1fab119ae2ea62
+SHA1: c071cab21faab9cbbccf17e5f11925f3b54b732a
+SHA256: 0c0f32fc27580a2397764f2546aff95cd69ff336c72ab13609293dcb348d57e2
+Section: Utilities
+Description: iPhone, iPad, iPod Touch 的文件管理器
+Author: TIGI Software
+Name: Filza File Manager
+
+Package: com.nan.filza
+Version: 3.7.4-4
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza, com.nan.filza64bit
+Replaces: com.tigisoftware.filza
+Provides: com.tigisoftware.filza
+Filename: debs/com.nan.filza_3.7.4-4_iphoneos-arm.deb
+Size: 12728306
+MD5sum: 7f6c5c66c0b67bf30a130367ce8f713d
+SHA1: 1a6ff7d40270dffda2f702514a3b8e9873c66eac
+SHA256: 7327bce7e93eb51070f7a04cc7c00c09162ede9b8ce55e9a360150863f462673
+Section: Utilities
+Description: iPhone, iPad, iPod Touch 的文件管理器
+Author: TIGI Software
+Name: Filza File Manager
+
+Package: com.nan.filza64bit
+Version: 3.7.3-16
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza64bit, com.nan.filza
+Replaces: com.tigisoftware.filza64bit
+Provides: com.tigisoftware.filza64bit
+Filename: debs/com.nan.filza64bit_3.7.3-16_iphoneos-arm.deb
+Size: 8613856
+MD5sum: 09064101469e0d3b4d202e76f723b446
+SHA1: 63e062631ddabedc29fbf5a45e95f29a2a60b140
+SHA256: 9847a20ae169d7a29b42ae23903bd66387cb8f7bbe0859c4696e802dde4551a1
+Section: Utilities
+Description: iPhone, iPad, iPod Touch 的文件管理器
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
+Package: com.nan.filza64bit
+Version: 3.7.4-12
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza64bit, com.nan.filza
+Replaces: com.tigisoftware.filza64bit
+Provides: com.tigisoftware.filza64bit
+Filename: debs/com.nan.filza64bit_3.7.4-12_iphoneos-arm.deb
+Size: 8571076
+MD5sum: d9334c97ec8cb1188540c0b9c3247387
+SHA1: 5ad45cb68a438a7327f55ae5214b00189922c5be
+SHA256: 891444c8d7d2ccc466051fe7ff6f9d395372f23cc5319c87d0231634f430db92
+Section: Utilities
+Description: iPhone, iPad, iPod Touch 的文件管理器
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
+Package: com.nan.filza64bit
+Version: 3.7.4-15
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza64bit, com.nan.filza
+Replaces: com.tigisoftware.filza64bit
+Provides: com.tigisoftware.filza64bit
+Filename: debs/com.nan.filza64bit_3.7.4-15_iphoneos-arm.deb
+Size: 8614998
+MD5sum: 9e8da9dbe2e60fa669f40fa8129fe7d8
+SHA1: 45dab1488d19433387ff2cd8e1e8fa7c22b02bc9
+SHA256: 156bfd66d3775893776a1c8ac728916518b8b7a37ad9047aceae51ae63168465
+Section: Utilities
+Description: iPhone, iPad, iPod Touch 的文件管理器
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
+Package: com.nan.filza64bit
+Version: 3.7.4-4
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza64bit, com.nan.filza
+Replaces: com.tigisoftware.filza64bit
+Provides: com.tigisoftware.filza64bit
+Filename: debs/com.nan.filza64bit_3.7.4-4_iphoneos-arm.deb
+Size: 8570848
+MD5sum: e904621efb6c8f2d1e026c018c9fc4c9
+SHA1: 4470ba488e522248dd22087c975f7586c04c03f4
+SHA256: 6964e499e2c0ce8523d83023c78a3e87a944ac020e4cc2aa572147f17ee7419e
+Section: Utilities
+Description: iPhone, iPad, iPod Touch 的文件管理器
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
+Package: com.nan.icleanerpro
+Version: 7.8.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro-crack
+Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro-crack
+Filename: debs/com.nan.icleanerpro_7.8.0_iphoneos-arm.deb
+Size: 7693058
+MD5sum: 4353382ae6e76e7a72f91a68fee38bd3
+SHA1: 1ce21fe040e763ef8f48626ba49f214cf0052845
+SHA256: 9bd1aa2f947db38c1037052444c201285c757c1c8ffbc30b6e71db1c45d78c03
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: iOS 系统清理 & 优化
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Name: iCleaner Pro
+
+Package: com.nan.icleanerpro-crack
+Version: 7.8.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro
+Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro
+Filename: debs/com.nan.icleanerpro-crack_7.8.0_iphoneos-arm.deb
+Size: 7690900
+MD5sum: c3da478d91437117be89b595e2dfc9e2
+SHA1: 32f41abaddd4f40b0a51a82b7ce9aeb7f6ab707a
+SHA256: 8f782e661221298f6e3790e01eafbd0d49e07869034b6c1d9168e258e7b8efc5
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: iOS 系统清理 & 优化
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Name: iCleaner Pro Crack
+
+Package: com.nan.localhostssh
+Version: 0.1.5
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: openssh, sed
+Depends: com.bingner.plutil | com.ericasadun.utilities
+Filename: debs/com.nan.localhostssh_0.1.5_iphoneos-arm.deb
+Size: 1224
+MD5sum: d2d33ec925884cac3150c7a416f128e7
+SHA1: f984212b3f3bea62d575818b0e77ec3aeb88a490
+SHA256: 1c29fb4143ce3398a614c44f4701e6b62596d897599c971640bf31b44b084024
+Section: System
+Description: 为 iOS 本地主机 SSH 访问启用 2222 端口
+Author: zhaonan
+Name: Local SSH
+
+Package: com.nan.localiapstore
+Version: 1.4-4
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: debs/com.nan.localiapstore_1.4-4_iphoneos-arm.deb
+Size: 70870
+MD5sum: de387128cce8d4ae22da555b1cef8b6b
+SHA1: 33303b0611f607b565471c251b8372688b0d4c0b
+SHA256: 416a07eae8b8c42984f110f50cebde42fe85543512167fa6223840092dd523e7
+Section: Tweaks
+Description: 不错的内购破解
+Author: PanguTeam
+Name: LocalIAPStore
+
+Package: com.nan.stashlite
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: com.ericasadun.utilities
+Depends: coreutils
+Filename: debs/com.nan.stashlite_0.1.0_iphoneos-arm.deb
+Size: 2386
+MD5sum: c305beba0ecc7a3ae594a78360b5a87f
+SHA1: 90a2e6d4f6b9a6ad928e1735bc10c5ebac639f6a
+SHA256: ef10e42e48ed6042f923d7d8a2fd6b9cc8a1c2c53e9c76891d61d1ad900b4622
+Section: System
+Description: 一个轻量级的搬移文件脚本</br></br>专治 disk0s1s1 不够空间</br>安装将写入配置文件：</br>/var/mobile/Library/Preferences/com.nan.stashlite.plist</br>会看的可以去改</br>卸载时按照配置文件搬移文件</br>不用担心配置文件会被删除的
+Author: zhaonan
+Name: Stash Lite
+
