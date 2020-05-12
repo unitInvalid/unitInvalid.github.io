@@ -968,10 +968,10 @@ Maintainer: zhaonan
 Pre-Depends: com.ericasadun.utilities
 Depends: coreutils
 Filename: repo/debs/com.nan.stashlite_0.1.1_iphoneos-arm.deb
-Size: 2572
-MD5sum: 03b18fcc6758a1e7a9d7056abb21f3bd
-SHA1: b88a5da8a3378617dddf27b168e1dc1188bef38b
-SHA256: 39fc48a5335833fbdce31bcbe8b3e2dbf757a29ae43a7a22b585ee948fc11ed3
+Size: 2570
+MD5sum: 98dcecbab8060e03df3027838ade059e
+SHA1: 264e8962152cd036076e6d91de91fc5bebef7eb4
+SHA256: ed904f9f2584828a89cddbaa507f9fa9caf391f38d2b4e0cb7dab0346586f9e8
 Section: System
 Description: 一个轻量级的搬移文件脚本</br></br>专治 disk0s1s1 不够空间</br>安装将写入配置文件：</br>/var/mobile/Library/Preferences/com.nan.stashlite.plist</br>会看的可以去改</br>卸载时按照配置文件搬移文件</br>不用担心配置文件会被删除的
 Author: zhaonan
