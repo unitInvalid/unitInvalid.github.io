@@ -1,3 +1,86 @@
+Package: apt
+Version: 1:0-23-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7
+Conflicts: cydia (<< 1.0.2843-1)
+Filename: debs/apt_1:0-23-1_iphoneos-arm.deb
+Size: 714
+MD5sum: b69a1697aa3e8f59a77af181b1704494
+SHA1: 63a74b52ea4d35846cf6c81df771d6563b629d6f
+SHA256: 1c4ce3d0521605c331a4be9b79adee9cea13b273a251317848eb77bb6c7b4dbf
+Section: Packaging
+Priority: required
+Description: 来自Debian的高级打包工具
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: APT 0.6 Transitional
+
+Package: apt7
+Version: 0.7.25.3-9-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb
+Replaces: apt (<< 1:0-1)
+Filename: debs/apt7_0.7.25.3-9-1_iphoneos-arm.deb
+Size: 347790
+MD5sum: e6fcb039b9b203cf363ddc09f09bca77
+SHA1: 6bea0c2e00fe8ff8e34d8fa71200ab2a27214b87
+SHA256: 8c60b585c3782ca7b1b094eadeb5286e47f0511a778837bfad9e32291b7a27bb
+Section: Packaging
+Priority: standard
+Description: 来自 Debian 的高级打包工具
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: APT 0.7 Strict
+
+Package: bash
+Version: 4.0.44-16-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: grep, ncurses, readline (>= 6.0-7), sed
+Filename: debs/bash_4.0.44-16-1_iphoneos-arm.deb
+Size: 323246
+MD5sum: 69cbd1810fc6aeec0e86c46420e8f6b2
+SHA1: cdfb352d22cab5e902edae2b8e1cae92e4498ec7
+SHA256: cf40578c405cdf28d3322c8af3f4e2a422a8033d1f67aa0b25e2b6457fe20bd0
+Section: Terminal_Support
+Priority: required
+Description: 有史以来最好的来自 Brian Fox 的外壳
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Bourne-Again SHell
+
+Package: berkeleydb
+Version: 4.6.21-5-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/berkeleydb_4.6.21-5-1_iphoneos-arm.deb
+Size: 611786
+MD5sum: daefb39da9119407f1f8bc82f62721b0
+SHA1: 04317cdff99234b3c4a1240b6da4978334825387
+SHA256: 19fe492aedb4215558b69080a0f356316864d9c361f1d97fa18636ac08c50ec8
+Section: Data_Storage
+Priority: standard
+Description: Oracle 的嵌入式数据库引擎
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Berkeley DB
+
+Package: bzip2
+Version: 1.0.5-8-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/bzip2_1.0.5-8-1_iphoneos-arm.deb
+Size: 23780
+MD5sum: a49069d0aaa26b35492ef0cfefcc972a
+SHA1: ce7faf98a6e1137435e169b7cc80f3ff74c25d6a
+SHA256: 6c6094eb8be5e99fa4aea6fdb9700b10ee01f84d29602458d6e18722b434cd1b
+Section: Archiving
+Priority: important
+Description: compression that's slightly better than gzip
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: bzip2
+
 Package: com.ericasadun.utilities
 Version: beta17-1
 Architecture: iphoneos-arm
@@ -309,6 +392,23 @@ Description: 一个轻量级的搬移文件脚本</br></br>专治 disk0s1s1 不�
 Author: zhaonan
 Name: Stash Lite
 
+Package: com.saurik.patcyh
+Version: 1.2.0-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 8.3), coreutils-bin, ldid
+Filename: debs/com.saurik.patcyh_1.2.0-1_iphoneos-arm.deb
+Size: 27530
+MD5sum: 3fd08e31769312091d386b8b6a4edb30
+SHA1: 5854354d685890b034e0a78d22645c80475894b8
+SHA256: 010e50c6c7febe7bdc9b8a1c2a57bdc49245b24a74aaffc62c82b6f393036310
+Section: System
+Priority: optional
+Description: 用于支持 UIKit Tools 的安装补丁
+Tag: cydia::obsolete
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Patcyh
+
 Package: coreutils
 Version: 8.12-13-1
 Architecture: iphoneos-arm
@@ -349,6 +449,39 @@ Tag: purpose::uikit, cydia::essential, role::enduser
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Icon: file:///Applications/Cydia.app/Icon-60.png
 Name: Cydia Installer
+
+Package: dpkg
+Version: 1.18.10-12-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: tar (>= 1.23)
+Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, ncurses, tar
+Filename: debs/dpkg_1.18.10-12-1_iphoneos-arm.deb
+Size: 611318
+MD5sum: ee6f901cc6f45923ade772eaa2e3476c
+SHA1: 588e193bad0f550d3e285158576819cbec429d89
+SHA256: c4d6bea99171da737f0e5a3315e50bcf0b8141005ad4fb157ea93748f16a594a
+Section: Packaging
+Priority: required
+Description: Debian 的软件包维护工具
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Debian Packager
+
+Package: findutils
+Version: 4.2.33-7-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: bash, sed
+Filename: debs/findutils_4.2.33-7-1_iphoneos-arm.deb
+Size: 223564
+MD5sum: 12cd08bd50447b97a1a85c52b46ba49e
+SHA1: 8a3339c1a839029bcb04c16cdfa5bcc1d6af333e
+SHA256: 518f6f54c64743b2462e30eee01deefe6eb98eca2d6f7a96280727f695317f9d
+Section: Utilities
+Priority: important
+Description: 编制索引和搜索文件系统
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Find Utilities
 
 Package: openssh
 Version: 6.7p1-13-1
@@ -398,6 +531,22 @@ Description: claims to be a good compressor
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: 7-zip (POSIX)
 
+Package: pam-modules
+Version: 36.1-5-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/pam-modules_36.1-5-1_iphoneos-arm.deb
+Size: 8014
+MD5sum: d0a1f8b64bd8844da028dc7ebe42dbc3
+SHA1: e769f64b0f0167d2b26b65f689f8c0acd6254aa0
+SHA256: a4d3f8051de6b6b805fd5461772e4811571d70cfca795cf50a930159733addd5
+Section: Administration
+Priority: standard
+Description: 标准的 Apple 认证模块
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: PAM Modules
+
 Package: preferenceloader
 Version: 2.2.4-1
 Architecture: iphoneos-arm
@@ -414,6 +563,72 @@ Tag: role::hacker, purpose::library, compatible::ios7, compatible::ios8, compati
 Author: Sam Bingner <maintainer@sbdhi.com>
 Dev: dustinhowett
 Name: PreferenceLoader
+
+Package: sed
+Version: 4.1.5-8-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/sed_4.1.5-8-1_iphoneos-arm.deb
+Size: 83212
+MD5sum: ac96f27a3901acff290c19563356640a
+SHA1: a6a2b112af17dc0dc7c3eae7d95a202abd59f43e
+SHA256: 20d0918c140e18089082f3659bef5b392bc30474a4466f27f7962fdae7914f7b
+Section: Utilities
+Priority: important
+Description: edits streams of text using patterns
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: sed
+
+Package: shell-cmds
+Version: 118-7-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Provides: killall, which
+Filename: debs/shell-cmds_118-7-1_iphoneos-arm.deb
+Size: 17420
+MD5sum: 793441d722313ff0bcebc4b0524d0f0d
+SHA1: 7ff450cedd610944e352a374f44290cc1a09cea0
+SHA256: 87439594dab043abdf541b0f45ed7b67210f0c1034760b113de1a39a18a37c35
+Section: Administration
+Priority: important
+Description: killall, mktemp, renice, time, which
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: shell-cmds
+
+Package: tar
+Version: 1.29-10-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: bzip2, gzip, lzma
+Filename: debs/tar_1.29-10-1_iphoneos-arm.deb
+Size: 283604
+MD5sum: 2747f1a64a2c3f03b7924da7a8124f36
+SHA1: 45d75f3a53cc5b503b53c52fefec656b7457d3ea
+SHA256: 4718b58268e22352a07f7baccd406b177ede99358151d4e15c7ee7733f00e414
+Section: Archiving
+Priority: required
+Description: tool for making tape archives
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Tape Archive
+
+Package: uikittools
+Version: 1.1.12-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils-bin, firmware (<< 8.3) | com.saurik.patcyh
+Filename: debs/uikittools_1.1.12-1_iphoneos-arm.deb
+Size: 31960
+MD5sum: 2bab41557e80dac92b8e8f2b97502907
+SHA1: ea326738b6fae6491f3883dc2528478d1f451144
+SHA256: 77c3994a1549e853fee842ddce6309774aca07557132756f4ed5920722913572
+Section: Utilities
+Priority: optional
+Description: UIKit/GraphicsServices command line access
+Tag: purpose::console, role::hacker
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: UIKit Tools
 
 Package: unrar
 Version: 3.6.8-2p-1
