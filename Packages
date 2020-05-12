@@ -6,13 +6,13 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt7
 Conflicts: cydia (<< 1.0.2843-1)
 Filename: debs/apt_1:0-23-1_iphoneos-arm.deb
-Size: 714
-MD5sum: b69a1697aa3e8f59a77af181b1704494
-SHA1: 63a74b52ea4d35846cf6c81df771d6563b629d6f
-SHA256: 1c4ce3d0521605c331a4be9b79adee9cea13b273a251317848eb77bb6c7b4dbf
+Size: 718
+MD5sum: cf56752ee5d8eb0d12a3880e0be0b780
+SHA1: bf060d1053ef7c03dce9e6276c6758a9689a8887
+SHA256: ba308f898045dbee1e48da28708ce49a869881247ea5b2822347753e61903d72
 Section: Packaging
 Priority: required
-Description: 来自Debian的高级打包工具
+Description: 来自 Debian 的高级打包工具
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: APT 0.6 Transitional
 
