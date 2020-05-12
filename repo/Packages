@@ -280,16 +280,16 @@ Author: PanguTeam
 Name: LocalIAPStore
 
 Package: com.nan.stashlite
-Version: 0.1.0
+Version: 0.1.1
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Pre-Depends: com.ericasadun.utilities
 Depends: coreutils
-Filename: debs/com.nan.stashlite_0.1.0_iphoneos-arm.deb
-Size: 2386
-MD5sum: c305beba0ecc7a3ae594a78360b5a87f
-SHA1: 90a2e6d4f6b9a6ad928e1735bc10c5ebac639f6a
-SHA256: ef10e42e48ed6042f923d7d8a2fd6b9cc8a1c2c53e9c76891d61d1ad900b4622
+Filename: debs/com.nan.stashlite_0.1.1_iphoneos-arm.deb
+Size: 2572
+MD5sum: 03b18fcc6758a1e7a9d7056abb21f3bd
+SHA1: b88a5da8a3378617dddf27b168e1dc1188bef38b
+SHA256: 39fc48a5335833fbdce31bcbe8b3e2dbf757a29ae43a7a22b585ee948fc11ed3
 Section: System
 Description: 一个轻量级的搬移文件脚本</br></br>专治 disk0s1s1 不够空间</br>安装将写入配置文件：</br>/var/mobile/Library/Preferences/com.nan.stashlite.plist</br>会看的可以去改</br>卸载时按照配置文件搬移文件</br>不用担心配置文件会被删除的
 Author: zhaonan

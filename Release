@@ -1,0 +1,8 @@
+Origin: zhaonan's hijack Repo
+Label: zhaonan's hijack Repo
+Description: zhaonan's hijack Repo
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
+
