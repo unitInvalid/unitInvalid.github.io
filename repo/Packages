@@ -249,20 +249,22 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Name: iCleaner Pro Crack
 
 Package: com.nan.localhostssh
-Version: 0.1.5
+Version: 0.1.6
 Architecture: iphoneos-arm
 Maintainer: zhaonan
-Pre-Depends: openssh, sed
-Depends: com.bingner.plutil | com.ericasadun.utilities
-Filename: debs/com.nan.localhostssh_0.1.5_iphoneos-arm.deb
-Size: 1224
-MD5sum: d2d33ec925884cac3150c7a416f128e7
-SHA1: f984212b3f3bea62d575818b0e77ec3aeb88a490
-SHA256: 1c29fb4143ce3398a614c44f4701e6b62596d897599c971640bf31b44b084024
+Pre-Depends: com.nan.openssh.virtual-depend, sed
+Depends: plutil | com.bingner.plutil | com.ericasadun.utilities
+Filename: debs/com.nan.localhostssh_0.1.6_iphoneos-arm.deb
+Size: 1332
+MD5sum: 02f5e2c1418a43ae03e86830178c0c71
+SHA1: 83a7a4fccca7c59444bc3cc6110961babea3ee37
+SHA256: 1172e7548fedc763ed9fd43162fab46304ced7ae23f3fff42c2266e8e7541523
 Section: System
 Description: 为 iOS 本地主机 SSH 访问启用 2222 端口
 Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.localhostssh/image.png
 Name: Local SSH
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.localhostssh/js.json
 
 Package: com.nan.localiapstore
 Version: 1.4-4
@@ -278,6 +280,22 @@ Section: Tweaks
 Description: 不错的内购破解
 Author: PanguTeam
 Name: LocalIAPStore
+
+Package: com.nan.openssh.virtual-depend
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: openssh
+Filename: debs/com.nan.openssh.virtual-depend_0.1.0_iphoneos-arm.deb
+Size: 636
+MD5sum: 24038f5b5a0a3404eee9686b7424c929
+SHA1: 1d2cdaba82284daef111aa5f43657edea5e5b3ac
+SHA256: f57cf60dc1f28a98e949a66e260b406886b58dd7db92132656bf4cc2abbb99fa
+Section: System
+Description: 一个用于依赖 OpenSSH 的依赖
+Tag: role::hacker
+Author: zhaonan
+Name: OpenSSH virtual depend
 
 Package: com.nan.stashlite
 Version: 0.1.2
