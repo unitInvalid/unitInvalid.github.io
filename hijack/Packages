@@ -359,6 +359,22 @@ Description: ftp, inetd, ping, rlogin, telnet, tftp
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: inetutils
 
+Package: ldid
+Version: 1:1.2.1-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/ldid_1:1.2.1-1_iphoneos-arm.deb
+Size: 46672
+MD5sum: 3dd33df17af5aa5ce9270e566b67058a
+SHA1: 6fc676ff4d26deed84aa0ebd3d5944e1516fd6fc
+SHA256: 947ee2229919377f8c4ef1096d6e9bcde02d971b0833577c7cf3d8a6d17ce4f1
+Section: Development
+Priority: optional
+Description: 伪协同设计 Mach-O 文件
+Tag: purpose::console, role::developer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
 Package: make
 Version: 3.81-2p-1
 Architecture: iphoneos-arm
@@ -455,6 +471,21 @@ Description: 标准的 Apple 认证模块
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: PAM Modules
 
+Package: png
+Version: 1.2.24-3-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/png_1.2.24-3-1_iphoneos-arm.deb
+Size: 259676
+MD5sum: 716837027dd44745c0b39e06985e791e
+SHA1: f17fb385a9c87dfa0f3628f76be5f6c747dc2f60
+SHA256: 54ce0ccc6c7a39f7e02bf47b12a2db21108531b38bacafe41bf0af9774bbe1ca
+Section: Multimedia
+Priority: optional
+Description: 用于处理 PNG 文件的库
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: png
+
 Package: preferenceloader
 Version: 2.2.4-1
 Architecture: iphoneos-arm
@@ -487,6 +518,24 @@ Priority: important
 Description: synchronize files between computers
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: rsync
+
+Package: rtadvd
+Version: 307.0.1-2-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 9.0)
+Replaces: network-cmds
+Filename: debs/rtadvd_307.0.1-2-1_iphoneos-arm.deb
+Size: 24496
+MD5sum: 4b48c0ada31e604b3c18a1c956e697f6
+SHA1: 894f39b0e24533de58a40f9fdef4eb9ac905213f
+SHA256: 3b2fb90041d8d6fbc4c6cc1d9f90c9eb0c787019f11f1e8bfc74b2d774805a09
+Section: Networking
+Priority: important
+Description: "mistakes were made" (on iOS 8)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Router Advisement Daemon
 
 Package: rzip
 Version: 2.1-2p-1
