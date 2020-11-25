@@ -1028,3 +1028,25 @@ Description: 一个轻量级的搬移文件脚本</br></br>专治 disk0s1s1 不�
 Author: zhaonan
 Name: Stash Lite
 
+Package: com.nan.tetherme8
+Version: 1.2.3~arm64e-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: mobilesubstrate (>= 0.9.5101)
+Depends: firmware (>= 8.0), preferenceloader (>= 2.2.2), firmware (>= 11.0) | network-cmds
+Conflicts: net.tetherme.tetherme, net.tetherme.tetherme8
+Replaces: net.tetherme.tetherme
+Provides: net.tetherme.tetherme8
+Filename: repo/debs/com.nan.tetherme8_1.2.3~arm64e-1_iphoneos-arm.deb
+Size: 206648
+MD5sum: 25f3c8e7638d0da5b6916d64e3b400b7
+SHA1: 6b2b80d78148c2dff59cc589c6cd3cc3efc7ac74
+SHA256: 04e224021d47bd2b5921dfb3903ac680a446a9c71974d8cb83ba3d31fc774891
+Section: Networking
+Description: 动态启用 iOS8 + 设备的本机网络共享。这应该适用于任何运营商而无需定制捆绑或首选项。
+Author: Sam Bingner
+Depiction: http://repo.tetherme.net/net.tetherme.tetherme8.html
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.tetherme/image.png
+Name: TetherMe
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.tetherme/js.json
+
